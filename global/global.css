@@ -1,0 +1,81 @@
+@import url(../navigation/nav.css);
+@import url(../main/main.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  max-width: 144rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  dialog {
+    width: 90%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  dialog .top {
+    width: 80%;
+    margin-inline: auto;
+  }
+  dialog .top div {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 2rem;
+  }
+  dialog .top div button {
+    border: none;
+    background-color: inherit;
+  }
+  dialog .top input {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    width: 100%;
+    height: 5rem;
+    margin-block: 2rem;
+  }
+  dialog .top ul li {
+    list-style-type: none;
+    margin-block: 1.2rem;
+  }
+  dialog .top ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  dialog .bottom {
+    width: 80%;
+    margin-inline: auto;
+  }
+  dialog .bottom div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1rem;
+  }
+  dialog .bottom div p {
+    color: gray;
+    font-size: 1.8rem;
+  }
+  dialog .bottom button {
+    width: 100%;
+    border-radius: 1rem;
+    height: 5.2rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    margin-block: 1rem;
+  }
+}/*# sourceMappingURL=global.css.map */
