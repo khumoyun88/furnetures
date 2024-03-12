@@ -29,6 +29,7 @@ body {
   dialog .top {
     width: 80%;
     margin-inline: auto;
+    margin-bottom: 30rem;
   }
   dialog .top div {
     display: flex;

@@ -5,7 +5,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 6rem;
-  border: 1px solid purple;
 }
 nav > div {
   display: flex;
