@@ -1,0 +1,78 @@
+@mixin shopNow {
+
+
+}
+
+.furniture{
+    max-width: 95%;
+    height: 66.4rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+    >div:first-child{
+        background-image: url(../img/armchair.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-area: 1 / 1 / span 2/ span 1;
+        padding: 4rem;
+
+        h1{
+            font-size: 3.5rem;
+        }
+
+        p{
+            margin-top: 0.6rem;
+            font-size: 1.6rem;
+
+            a{
+                text-decoration: underline;
+                color: #000;
+            }
+
+        }
+        
+    }    
+    >div:nth-child(2){
+        background-image: url(../img/small-shelf.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4rem;
+        h1{
+            font-size: 3.5rem;
+        }
+
+        p{
+            margin-top: 0.6rem;
+            font-size: 1.6rem;
+
+            a{
+                text-decoration: underline;
+                color: #000;
+            }
+
+        }
+    }
+    >div:last-child{
+        background-image: url(../img/toster.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4rem;
+
+        h1{
+            font-size: 3.5rem;
+        }
+
+        p{
+            margin-top: 0.6rem;
+            font-size: 1.6rem;
+
+            a{
+                text-decoration: underline;
+                color: #000;
+            }
+
+        }
+    }
+}

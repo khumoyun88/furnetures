@@ -1,0 +1,59 @@
+.furniture {
+  max-width: 95%;
+  height: 66.4rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.furniture > div:first-child {
+  background-image: url(../img/armchair.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: 1/1/span 2/span 1;
+  padding: 4rem;
+}
+.furniture > div:first-child h1 {
+  font-size: 3.5rem;
+}
+.furniture > div:first-child p {
+  margin-top: 0.6rem;
+  font-size: 1.6rem;
+}
+.furniture > div:first-child p a {
+  text-decoration: underline;
+  color: #000;
+}
+.furniture > div:nth-child(2) {
+  background-image: url(../img/small-shelf.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+.furniture > div:nth-child(2) h1 {
+  font-size: 3.5rem;
+}
+.furniture > div:nth-child(2) p {
+  margin-top: 0.6rem;
+  font-size: 1.6rem;
+}
+.furniture > div:nth-child(2) p a {
+  text-decoration: underline;
+  color: #000;
+}
+.furniture > div:last-child {
+  background-image: url(../img/toster.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+.furniture > div:last-child h1 {
+  font-size: 3.5rem;
+}
+.furniture > div:last-child p {
+  margin-top: 0.6rem;
+  font-size: 1.6rem;
+}
+.furniture > div:last-child p a {
+  text-decoration: underline;
+  color: #000;
+}/*# sourceMappingURL=furniture.css.map */

@@ -1,0 +1,13 @@
+.services {
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services img {
+  margin-block: 4.8rem;
+  max-width: 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=services.css.map */
